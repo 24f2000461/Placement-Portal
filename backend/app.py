@@ -1484,6 +1484,7 @@ def get_application_details(app_id):
         "status": app.status
     })
 #
+#
 
 if __name__ == '__main__':
     with app.app_context():
