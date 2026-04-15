@@ -1483,6 +1483,7 @@ def get_application_details(app_id):
         "apply_date": app.apply.strftime("%d/%m/%Y") if app.apply else "",
         "status": app.status
     })
+#
 
 if __name__ == '__main__':
     with app.app_context():
